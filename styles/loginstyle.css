@@ -1,0 +1,131 @@
+html{
+  background: url(pics/lvl1.jpg) ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-y: scroll;
+
+}
+body{
+  margin: 0px;
+}
+button{
+  border-radius: 5px;
+}
+
+
+.main-sec{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  margin-bottom: 70px;
+}
+.form-container{
+	position:absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%,-50%);
+	display: flex;
+}
+.back-sign{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.left-sec{
+  height: 430px;
+  width: 300px;
+  background: url(pics/backg1.jpg) ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-right: 10px;
+  border-right: 2px solid white;
+
+}
+.left-sec p{
+  text-align: left;
+  margin:50px auto auto 70px;
+  font-style:oblique;
+  font-weight:bolder;
+  color:white;
+}
+.left-sec h4{
+  text-align: left;
+  margin:2px auto auto 110px;
+  border-bottom: 1px solid white;
+  font-style:oblique;
+  font-weight:bolder;
+  color:white;
+}
+
+
+.right-sec{
+  height: 430px;
+  width: 250px;
+  margin: 0px 0px 0px 0px;
+  background-color:#323232;
+}
+
+.info{
+  margin: 20% 50px auto 20px;
+
+}
+.right-header p{
+  margin: 45% 45% 0 auto;
+  width: 40px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  border-bottom: 1px solid white;
+
+
+
+}
+
+
+.sign-in  button{
+  background-color: #21D0B2;
+  border: none;
+  color: #323232;
+  margin: 50px auto auto 45px;
+  width: 150px;
+  height:30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.sign-in  button:hover{
+  color:white;
+}
+
+input{
+  background-color: transparent ;
+  border:2px solid #21D0B2;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+}
+
+input,select,textarea{
+  font-weight: bold;
+  color: white;
+}
+
+.bar{
+  margin-bottom:5px;
+}
+.submit{
+    margin-top:10px;
+    border:2px solid #323232;
+}
+.submit :hover{
+	border: 1.5px solid #323232;
+}
+.submit,input[value]{
+  color:#323232;
+}
